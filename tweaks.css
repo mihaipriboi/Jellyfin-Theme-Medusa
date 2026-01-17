@@ -315,6 +315,11 @@ background: rgba(0, 0, 0, 0);
         /* push zindex back so it doesnt cover menu */
         z-index: 0;
     }
+
+    .headerTop {
+        /* bring to the very front, a lot more to be sure */
+        z-index: 9999;
+    }
 }
 
 /* Add margins to 'Play all' and three dots buttons */
