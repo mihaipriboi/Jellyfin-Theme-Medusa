@@ -70,3 +70,14 @@ imgLogoIcon {
 .pageTitleWithLogo { 
   background-image: url(https://cdn.jsdelivr.net/gh/mihaipriboi/Jellyfin-Theme-Medusa@main/images/logo_light.png) !important; 
 } 
+
+@media (max-width: 50em) {
+  .adminDrawerLogo img, 
+  .imgLogoIcon {
+    content: url(https://cdn.jsdelivr.net/gh/mihaipriboi/Jellyfin-Theme-Medusa@main/images/logo_light_mobile.png) !important;
+  }
+
+  .pageTitleWithLogo {
+    background-image: url(https://cdn.jsdelivr.net/gh/mihaipriboi/Jellyfin-Theme-Medusa@main/images/logo_light_mobile.png) !important;
+  }
+}
